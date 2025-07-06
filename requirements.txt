@@ -1,0 +1,8 @@
+flask
+flasgger
+pandas
+beautifulsoup4
+requests
+selenium
+webdriver-manager
+lxml
