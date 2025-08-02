@@ -30,3 +30,5 @@ A solução utiliza **AWS Lambda**, **S3**, **Glue** e **Athena** para realizar 
   - **`glue_trigger.py`**: Dispara automaticamente o job do AWS Glue sempre que novos arquivos são adicionados à pasta `raw` no S3.
 
 - **`README.md`**: Este arquivo, com a descrição e instruções do projeto.
+
+![Arquitetura do projeto](img/arquitetura.jpg)
