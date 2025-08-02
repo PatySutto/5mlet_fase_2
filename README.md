@@ -16,6 +16,8 @@ A solução utiliza **AWS Lambda**, **S3**, **Glue** e **Athena** para realizar 
 5mlet_fase_2/
 ├── glue/
 │   └── transform_data.py
+├── img/
+│   └── arquitetura.jpg
 ├── lambda/
 │   ├── data_extract.py
 │   └─  glue_trigger.py
@@ -25,10 +27,15 @@ A solução utiliza **AWS Lambda**, **S3**, **Glue** e **Athena** para realizar 
 - **`glue/`**: Contém o script utilizado no AWS Glue para o processamento e transformação dos dados.
   - **`transform_data.py`**: Responsável por tratar os dados brutos, salvar os dados refinados no S3 e criar a tabela no Glue Catalog.
 
+  - **`img/`**: Contém imagens png, jpg, etc..
+  - **`arquitetura.jpg`**: Desenho da arquitetura do produto.
+
 - **`lambda/`**: Contém os scripts executados por funções Lambda.
   - **`data_extract.py`**: Realiza a extração dos dados brutos via web scraping.
   - **`glue_trigger.py`**: Dispara automaticamente o job do AWS Glue sempre que novos arquivos são adicionados à pasta `raw` no S3.
 
 - **`README.md`**: Este arquivo, com a descrição e instruções do projeto.
+
+## 🏗️ Arquitetura do Projeto
 
 ![Arquitetura do projeto](img/arquitetura.jpg)
