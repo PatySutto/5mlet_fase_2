@@ -34,7 +34,7 @@ A solução utiliza **AWS Lambda**, **S3**, **Glue** e **Athena** para realizar 
   - **`data_extract.py`**: Realiza a extração dos dados brutos via web scraping.
   - **`glue_trigger.py`**: Dispara automaticamente o job do AWS Glue sempre que novos arquivos são adicionados à pasta `raw` no S3.
 
-- **`README.md`**: Este arquivo, com a descrição e instruções do projeto.
+- **`README.md`**: Descrição e instruções do projeto.
 
 ## 🏗️ Arquitetura do Projeto
 
