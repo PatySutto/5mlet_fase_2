@@ -38,4 +38,4 @@ A solução utiliza **AWS Lambda**, **S3**, **Glue** e **Athena** para realizar 
 
 ## 🏗️ Arquitetura do Projeto
 
-![Arquitetura do projeto](img\Captura de tela 2025-08-03 181940.jpg)
+![Arquitetura do projeto](img/Captura%20de%20tela%202025-08-03%20181940.jpg)
