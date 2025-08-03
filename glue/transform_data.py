@@ -171,5 +171,4 @@ logger.info(f"Executando comando: {repair_table_query}")
 spark.sql(repair_table_query)
 logger.info(f"Comando MSCK REPAIR TABLE executado com sucesso para a tabela '{transformed_table_name}'.")
 
-
 job.commit()
